@@ -151,7 +151,7 @@ function Home() {
       <img className="hero-image" src="/gallery/13.webp" alt="Niños compartiendo una actividad de lectura" />
       <div className="hero-shade" />
       <div className="container hero-content">
-        <span className="hero-kicker">SOMOS LEER PARA CRECER <Leaf /></span>
+        <span className="hero-kicker">SOMOS LEER PARA CRECER ♥<Leaf /></span>
         <h1>Donde nace un lector,<br /><em>crece una esperanza.</em></h1>
         <p>Transformando realidades a través del poder de los libros. Creamos espacios de encuentro, imaginación y comunidad donde más se necesitan.</p>
         <div className="hero-actions"><Link className="button button-yellow" to="/colabora">Quiero colaborar <Arrow /></Link><Link className="button button-ghost" to="/quienes-somos">Conoce nuestra historia</Link></div>
