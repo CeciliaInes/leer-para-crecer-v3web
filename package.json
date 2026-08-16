@@ -1,0 +1,31 @@
+{
+  "name": "leer-para-crecer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": ["studio"],
+  "scripts": {
+    "dev": "vite",
+    "dev:studio": "npm --workspace studio run dev",
+    "build": "tsc -b && vite build",
+    "build:studio": "npm --workspace studio run build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@portabletext/react": "^5.0.0",
+    "@sanity/image-url": "^2.0.2",
+    "@sanity/client": "^7.11.2",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-router-dom": "^7.9.6"
+  },
+  "devDependencies": {
+    "@rolldown/plugin-babel": "0.2.3",
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "6.0.4",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "typescript": "~5.9.3",
+    "vite": "8.1.5"
+  }
+}

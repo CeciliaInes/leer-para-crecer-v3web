@@ -1,0 +1,15 @@
+{
+  "name": "leer-para-crecer-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy"
+  },
+  "dependencies": {
+    "sanity": "6.8.0",
+    "@sanity/vision": "4.0.0"
+  }
+}
